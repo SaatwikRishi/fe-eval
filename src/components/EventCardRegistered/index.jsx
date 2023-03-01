@@ -49,7 +49,7 @@ export default function EventCardRegistered ({
         )}
       </span>
 
-      <span onClick={handleBookMark} className="action-bookmarked">
+      <span onClick={handleBookMark} data-testid ='bookmark' className="action-bookmarked">
         <FontAwesomeIcon icon={bookmark ? faBookmark : notmarked} size="xl" />
       </span>
     </div>

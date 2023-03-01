@@ -17,7 +17,7 @@ describe('Tests for Custom Button', () => {
     const onClick = jest.fn()
     render(
       <ThemeContext.Provider value={{ getCurrentTheme: jest.fn() }}>
-        <CustomButton text="Click Me" />
+        <CustomButton text="Click Me" onClick={onClick} />
       </ThemeContext.Provider>
     )
     fireEvent.click(screen.getByTestId('btn'))

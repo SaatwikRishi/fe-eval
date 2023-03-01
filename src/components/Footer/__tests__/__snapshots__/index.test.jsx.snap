@@ -4,23 +4,25 @@ exports[`Tests for footer should render when component is called 1`] = `
 <div>
   <footer
     class="paddings"
+    style="background-color: rgb(0, 0, 0);"
   >
     <div
       class="footer-themes"
+      style="background-color: rgb(0, 0, 0);"
     >
       <h2>
         THEMES
       </h2>
       <div
-        style="background-color: rgb(0, 0, 0); width: 40px; height: 40px; border-radius: 5px;"
-      />
-      <div
+        data-testid="change-theme"
         style="background-color: rgb(128, 0, 128); width: 40px; height: 40px; border-radius: 5px;"
       />
       <div
+        data-testid="change-theme"
         style="background-color: rgb(0, 0, 255); width: 40px; height: 40px; border-radius: 5px;"
       />
       <div
+        data-testid="change-theme"
         style="background-color: rgb(155, 153, 153); width: 40px; height: 40px; border-radius: 5px;"
       />
     </div>

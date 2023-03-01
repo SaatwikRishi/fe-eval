@@ -34,11 +34,12 @@ export default function Footer () {
       >
         <h2>THEMES</h2>
         {themes.map(
-          (color) =>
+          (color, index) =>
             color.colorHexCode !== getCurrentTheme() && (
               <div
+                data-testid='change-theme'
                 onClick={() => handleThemeClick(color.colorHexCode)}
-                key={Math.random()}
+                key={index}
                 style={{
                   backgroundColor: color.colorHexCode,
                   width: '40px',

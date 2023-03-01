@@ -7,7 +7,7 @@ import CustomButton from '../CustomButton'
 import { ThemeContext } from '../../context/ThemeContext'
 import { makeRequest } from '../../util/makeRequest'
 import { REGISTER_FOR_EVENT } from '../../util/constants'
-export default function EventCard ({ event, showRegistration }) {
+export default function EventCard ({ event, showRegistration = false }) {
   const { getCurrentTheme } = useContext(ThemeContext)
   const eventDate = new Date(event.datetime)
   const [registered, setRegistered] = React.useState(event.isRegistered)
