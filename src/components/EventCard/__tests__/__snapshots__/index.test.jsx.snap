@@ -41,6 +41,7 @@ exports[`Tests for Event Card should render when component is called and show re
         />
         <span
           class="action-bookmarked"
+          data-testid="bookmark"
         >
           <svg
             aria-hidden="true"
@@ -105,6 +106,7 @@ exports[`Tests for Event Card should render when component is called and show re
         />
         <span
           class="action-bookmarked"
+          data-testid="bookmark"
         >
           <svg
             aria-hidden="true"

@@ -35,7 +35,6 @@ export default function HomeBody () {
         })
       }, 100)
       .catch((e) => {
-        setLoading(false)
         navigate('/error/500')
       })
   }, [])

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for Home Body should navigate to another page 1`] = `
+<div>
+  <div>
+    Loading
+  </div>
+</div>
+`;
+
+exports[`Tests for Home Body should render the component 1`] = `
+<div>
+  <div>
+    Loading
+  </div>
+</div>
+`;
+
+exports[`Tests for Home Body should render the component 2`] = `
+<div>
+  <div>
+    Loading
+  </div>
+</div>
+`;
