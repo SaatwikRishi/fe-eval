@@ -8,7 +8,6 @@ import './HomeBody.css'
 
 export default function HomeBody () {
   const onFilterClick = (name, value) => {
-    console.log(name, value)
     if (value) {
       const filteredEvents = events.filter((e) => e.name.includes(value))
       setCurrentEvents(filteredEvents)
@@ -50,7 +49,7 @@ export default function HomeBody () {
         }).map((event) => (
           <Link style={{
             textDecoration: 'none'
-          }} key={Math.random()} to={'/event/' + event.id}>
+          }} key={Math.random()} to={'/events/' + event.id}>
             <span className="home-event-card">
               <EventCard event={event} />
             </span>

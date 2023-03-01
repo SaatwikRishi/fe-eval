@@ -18,8 +18,7 @@ export default function HomeFilter ({ onFilterClick }) {
     ['BOOKMARKED', 'SEATS AVAILABLE']
   ]
 
-  const [selected, setSelected] = React.useState(-1)
-
+  const [selected, setSelected] = React.useState('ALL')
   const handleSelectionChange = (item) => {
     setSelected(selected === item ? -1 : item)
     switch (item) {

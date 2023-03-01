@@ -3,14 +3,10 @@
 exports[`Tests for Header should render when component is called 1`] = `
 <div>
   <header
-    class="accent-color-2"
+    class="paddings"
   >
     <p>
-      My 
-      <strong>
-        Record
-      </strong>
-       Shelf
+      EVENTIFY
     </p>
   </header>
 </div>

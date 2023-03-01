@@ -21,7 +21,7 @@ function App () {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/error/:code?" element={<ErrorPage />} />
-            <Route path="/event/:id" element={<EventDetailsPage />} />
+            <Route path="/events/:id" element={<EventDetailsPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
       </ThemeState>

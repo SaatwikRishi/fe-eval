@@ -25,7 +25,7 @@ export default function EventCard ({ event, showRegistration }) {
         // backgroundColor: getCurrentTheme()
       }}
     >
-      <img src="https://i.ibb.co/Hx0gKgH/karaoke-2.jpg" />
+      <img src={event.imgUrl} />
       <div
         className="home-card-info"
         style={{

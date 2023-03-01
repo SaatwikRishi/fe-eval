@@ -10,11 +10,11 @@
   align-items: center;
   justify-content: center;
   column-gap: 10px;
-  color: green;
+  color: #A0F3AD;
 }
 
 .action-bookmarked {
-  color: red;
+  color: #EA8282;
 }
 
 .no-seats {
