@@ -1,0 +1,28 @@
+.home-card-action {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  align-items: center;
+}
+
+.action-registered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  color: green;
+}
+
+.action-bookmarked {
+  color: red;
+}
+
+.no-seats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    color: #ECECAB;
+}
+
+

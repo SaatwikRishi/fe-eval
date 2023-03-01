@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for Header should render when component is called 1`] = `
+<div>
+  <header
+    class="accent-color-2"
+  >
+    <p>
+      My 
+      <strong>
+        Record
+      </strong>
+       Shelf
+    </p>
+  </header>
+</div>
+`;

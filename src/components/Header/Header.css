@@ -1,0 +1,13 @@
+header {
+    height: 100px;
+    font-size: 40px;
+    color: white;
+    background-color: black;
+    display: flex;
+    font-family: "Big Shoulders Display" !important;
+}
+header > p {
+    align-self: center;
+    padding-left: 20px;
+    
+}

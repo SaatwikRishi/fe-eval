@@ -1,0 +1,20 @@
+
+footer {
+    display: flex;
+    padding: 30px;   
+    min-height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-themes {
+    display: flex;
+    column-gap: 20px;
+    color: white;
+display: flex;
+    background-color: black;
+    align-items: center;
+
+}
+

@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for footer should render when component is called 1`] = `
+<div>
+  <footer />
+</div>
+`;

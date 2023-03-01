@@ -1,0 +1,12 @@
+.event-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card-details {
+    max-width: 600px;
+    width: 100%;
+}
+
+

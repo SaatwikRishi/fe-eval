@@ -1,0 +1,26 @@
+.home-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+    column-gap: 10%;
+    margin: 50px 0;
+    
+}
+
+.home-body {
+    flex-grow: 1;
+}
+
+.home-event-card {
+    width: 300px;
+    height: 400px;
+}
+
+@media screen and (max-width: 1000px ) 
+{
+    .home-cards {
+        justify-content: center;
+    }
+    
+}

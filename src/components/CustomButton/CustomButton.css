@@ -1,0 +1,10 @@
+/* CUSTOM BTN */
+.custom-btn {
+    max-width: 200px;
+    background-color: #f5f5f5;
+    border: 1px solid #f5f5f5;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
