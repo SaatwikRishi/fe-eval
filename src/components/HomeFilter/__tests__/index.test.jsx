@@ -1,6 +1,7 @@
 import HomeFilter from '..'
 import { ThemeContext } from '../../../context/ThemeContext'
 import React from 'react'
+import { render } from '@testing-library/react'
 
 describe('Tests for Home Filter', () => {
   const getCurrentTheme = jest.fn()

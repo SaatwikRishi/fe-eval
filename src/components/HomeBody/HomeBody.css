@@ -1,7 +1,7 @@
 .home-cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: stretch;
     row-gap: 30px;
     column-gap: 10%;
     margin: 50px 0;
@@ -17,7 +17,7 @@
     height: 400px;
 }
 
-@media screen and (max-width: 1000px ) 
+@media screen and (max-width: 1500px ) 
 {
     .home-cards {
         justify-content: center;
